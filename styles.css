@@ -1,0 +1,95 @@
+
+body {
+    font-family: Verdana;
+    font-size: 16px;
+    
+}
+
+
+header{
+    text-align: center;
+}
+
+nav{
+    width: 100%;
+    text-align:center;
+    text-decoration: none;
+    background-color: red;
+    padding: 1em;
+    font-family: Selee;
+}
+
+nav a{
+    color:white;
+    display: inline-block;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:black;
+}
+
+@font-face{
+    font-family: Selee;
+    src: url("Plavsky Bold.otf") format("opentype");
+}
+
+h1,h2{
+    font-family: Selee;
+}
+
+#img1{
+    float: right;    
+    width: 20%;
+    margin-left: 20px;
+}
+#img2{
+    float: left;    
+    width: 15%;
+    margin-right: 20px;
+}
+
+#img3{
+    width: 30%;
+    padding-top: 10px;
+}
+
+#img4{
+    width:100%;
+}
+#img5{
+    width: 100%;
+    text-align: center;
+}
+
+article {
+    text-align: center;
+}
+
+.layout {
+    width: 1366px;
+    height: 768px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-left: 300px;
+  }
+
+  .layout2 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    text-align: center;
+  }
+
+  .layout3{
+    width: 100%;
+  
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+  }
